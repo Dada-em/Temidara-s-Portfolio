@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import projects from "./projects.json";
+import projects from "../data/projects.json";
 
 const filters = ["All", "Residential", "Commercial", "Interior", "Visualisation", "Site Supervision"];
 
@@ -52,7 +52,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* Filters */}
-        <div className="mx-auto max-w-7xl flex flex-wrap items-center gap-2.5 px-5 pb-12 sm:px-8 lg:px-14">
+        <div className="mx-auto max-w-7xl flex flex-wrap items-center gap-2.5 px-5 pb-4 sm:px-8 lg:px-14">
           {filters.map((f) => {
             const isActive = f === activeFilter;
             return (
@@ -69,6 +69,39 @@ export default function ProjectsPage() {
               </button>
             );
           })}
+        </div>
+
+        {/* View All Portfolio — External Link */}
+        <div className="mx-auto max-w-7xl px-5 pb-12 sm:px-8 lg:px-14">
+          <a
+            href="https://drive.google.com/file/d/1TDSuVdtQhRKGgjRfklKJ7WPn1wKrujxO/view?usp=drivesdk" // <-- Replace with your actual external URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-[12px] tracking-[.08em] text-[#a98d69] dark:text-[#3B82F6] hover:text-[#8b734f] dark:hover:text-[#60a5fa] transition-colors duration-300 group/link"
+          >
+            <span className="font-medium uppercase">View All Portfolio</span>
+            <svg
+              className="h-3.5 w-3.5 transition-transform duration-300 group-hover/link:translate-x-1"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+            {/* External link indicator */}
+            <svg
+              className="h-3 w-3 opacity-60"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
         </div>
 
         {/* Grid: showing exactly 2 cards per row */}
@@ -117,7 +150,7 @@ export default function ProjectsPage() {
                       </span>
                     ))}
                   </div>
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[#c5a880]/30 dark:border-[#3B82F6]/30 text-[#a98d69] dark:text-[#3B82F6] transition duration-300 group-hover:bg-[#c5a880] dark:group-hover:bg-[#3B82F6] group-hover:text-white shrink-0">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[#c5a880]/30 dark:border-[#3B82F6]/30 text-[#a98d69] dark:text-[#3B82F6] transition duration-300 group-hover:bg-[#c5a880] dark:group-hover:bg-[#3B82F6] group-hover:text-white dark:group-hover:text-white shrink-0">
                     <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M5 12h14M13 6l6 6-6 6" />
                     </svg>

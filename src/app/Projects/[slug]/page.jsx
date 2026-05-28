@@ -1,9 +1,9 @@
-// app/Projects/[slug]/page.jsx
+// app/projects/[slug]/page.jsx
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
-import projects from "../../projects/projects.json";
+import projects from "../data/projects.json";
 
 export async function generateMetadata({ params }) {
   const { slug } = params;

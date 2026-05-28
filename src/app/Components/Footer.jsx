@@ -1,7 +1,7 @@
 // app/components/Footer.tsx
 import Link from 'next/link'
 
-const navLinks = ['Home', 'About', 'Services', 'Projects', 'Contact']
+const navLinks = ['Home', 'About', 'Projects', 'Services', 'Contact']
 const services = ['BIM Modelling', '3D Visualisation', 'Technical Drafting', 'Site Supervision', 'Interior Design']
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
             Ipin<em className="italic text-[#c5a880] dark:text-[#3B82F6]">temidara</em>
           </p>
           <p className="text-[13px] font-light text-[#f0ede4]/45 leading-[1.75] max-w-[260px] mb-7">
-            First-class architect specialising in BIM modelling, 3D visualisation, and site supervision. Based in Lagos, Nigeria.
+            First-class architect specialising in BIM modelling, 3D visualisation, and site supervision. Based in Oyo State, Nigeria.
           </p>
           <div className="flex gap-2.5">
             {[

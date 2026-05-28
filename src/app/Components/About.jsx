@@ -125,7 +125,7 @@ export default function AboutSection() {
                 <rect x="3" y="4" width="18" height="18" rx="2"/>
                 <path d="M16 2v4M8 2v4M3 10h18"/>
               </svg>
-              Book a Consultation
+              Get in Touch
             </button>
           </div>
           <p className="font-serif italic text-[22px] text-white/60 mt-6">Ipintemidara A.</p>

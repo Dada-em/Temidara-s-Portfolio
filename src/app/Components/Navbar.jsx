@@ -5,10 +5,10 @@ import NextLink from "next/link";
 
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
+  { label: "About", href: "/#about" },
   { label: "Projects", href: "/projects" },
   { label: "Services", href: "/services" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -52,7 +52,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-stone-200/50 bg-white/70 backdrop-blur supports-backdrop-filter:bg-white/60 dark:border-white/10 dark:bg-black/55 dark:supports-backdrop-filter:bg-black/45 transition-colors duration-300">
       <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-14">
         <NextLink
-          href="#"
+          href="/"
           className="font-cormorant text-stone-900 dark:text-white text-lg font-light tracking-widest uppercase transition-colors duration-300"
           onClick={() => setOpen(false)}
         >
@@ -93,10 +93,10 @@ export default function Navbar() {
             )}
           </button>
           <NextLink
-            href="#contact"
+            href="/#contact"
             className="text-[11px] font-medium tracking-widest uppercase text-stone-800 border border-stone-400 px-5 py-2.5 hover:bg-stone-50 hover:border-stone-800 dark:text-white dark:border-white/50 dark:hover:bg-white/10 dark:hover:border-white transition-all"
           >
-            Book Consultation
+            Get in Touch
           </NextLink>
         </div>
 
@@ -120,11 +120,11 @@ export default function Navbar() {
             )}
           </button>
           <NextLink
-            href="#contact"
+            href="/#contact"
             className="text-[11px] font-medium tracking-widest uppercase text-stone-800 border border-stone-300 px-3 py-2 hover:bg-stone-50 transition-colors dark:text-white dark:border-white/30 dark:hover:bg-white/10"
             onClick={() => setOpen(false)}
           >
-            Book
+            Get in Touch
           </NextLink>
 
           <button
