@@ -23,15 +23,15 @@ export default function HeroSection() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-14 lg:py-24">
           <div className="max-w-xl">
             <div className="flex items-center gap-3 mb-6 sm:mb-7">
-              <div className="w-10 h-px bg-[#c5a880]" />
-              <span className="text-[11px] font-medium tracking-[0.22em] uppercase text-[#c5a880]">
+              <div className="w-10 h-px bg-[#c5a880] dark:bg-[#3B82F6]" />
+              <span className="text-[11px] font-medium tracking-[0.22em] uppercase text-[#c5a880] dark:text-[#3B82F6]">
                 Architecture & Design Studio
               </span>
             </div>
 
             <h1 className="font-cormorant text-[clamp(40px,9vw,76px)] font-light leading-[1.07] text-white mb-5 sm:mb-6">
               Where Every<br />
-              <em className="italic text-[#c5a880]">Structure</em> Tells<br />
+              <em className="italic text-[#c5a880] dark:text-[#3B82F6]">Structure</em> Tells<br />
               Its Story
             </h1>
 
@@ -43,7 +43,7 @@ export default function HeroSection() {
             <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-7">
               <Link
                 href="#"
-                className="text-[11px] font-medium tracking-widest uppercase text-white bg-[#c5a880] px-8 py-3.5 hover:bg-[#a98d69] transition-colors"
+                className="text-[11px] font-medium tracking-widest uppercase text-white bg-[#c5a880] dark:bg-[#3B82F6] px-8 py-3.5 hover:bg-[#a98d69] dark:hover:bg-[#2563EB] transition-colors"
               >
                 View Portfolio
               </Link>
