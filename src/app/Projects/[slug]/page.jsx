@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
-import projects from "../data/projects.json";
+import projects from "../../data/projects.json"
 
 export async function generateMetadata({ params }) {
   const { slug } = params;
