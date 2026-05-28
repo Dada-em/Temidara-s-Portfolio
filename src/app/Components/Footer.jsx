@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-14">
 
       {/* CTA Strip */}
-      <div className="bg-[#141a22] border border-[#3B82F6]/[.14] rounded-2xl px-6 py-7 sm:px-10 sm:py-9 lg:px-12 lg:py-10 flex flex-col items-start justify-between gap-6 md:flex-row md:items-center mb-14 sm:mb-16">
+      <div className="bg-[#1c1815] border border-[#c5a880]/[.14] rounded-2xl px-6 py-7 sm:px-10 sm:py-9 lg:px-12 lg:py-10 flex flex-col items-start justify-between gap-6 md:flex-row md:items-center mb-14 sm:mb-16">
         <div>
           <h3 className="font-serif text-[26px] font-normal text-[#f0ede4] mb-1.5">
             Ready to start your next project?
@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
         <Link
           href="/contact"
-          className="flex items-center gap-2 bg-[#3B82F6] text-white rounded-full px-7 py-3.5 text-[12px] font-medium tracking-wide whitespace-nowrap hover:bg-[#2563EB] transition-colors"
+          className="flex items-center gap-2 bg-[#c5a880] text-white rounded-full px-7 py-3.5 text-[12px] font-medium tracking-wide whitespace-nowrap hover:bg-[#a98d69] transition-colors"
         >
           Get in Touch
           <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -36,7 +36,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <p className="font-serif text-[28px] text-[#f0ede4] mb-3">
-            Ipint<em className="italic text-[#3B82F6]">emidara</em>
+            Ipint<em className="italic text-[#c5a880]">emidara</em>
           </p>
           <p className="text-[13px] font-light text-[#f0ede4]/45 leading-[1.75] max-w-[260px] mb-7">
             First-class architect specialising in BIM modelling, 3D visualisation, and site supervision. Based in Lagos, Nigeria.
@@ -51,7 +51,7 @@ export default function Footer() {
                 key={s.label}
                 href={s.href}
                 aria-label={s.label}
-                className="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-white/45 hover:border-[#3B82F6] hover:text-[#3B82F6] transition-colors"
+                className="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-white/45 hover:border-[#c5a880] hover:text-[#c5a880] transition-colors"
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z"/>
@@ -64,7 +64,7 @@ export default function Footer() {
 
         {/* Nav */}
         <div>
-          <p className="text-[11px] tracking-[.2em] uppercase text-[#3B82F6] mb-5">Navigation</p>
+          <p className="text-[11px] tracking-[.2em] uppercase text-[#c5a880] mb-5">Navigation</p>
           <ul className="flex flex-col gap-3">
             {navLinks.map((l) => (
               <li key={l}>
@@ -78,7 +78,7 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <p className="text-[11px] tracking-[.2em] uppercase text-[#3B82F6] mb-5">Services</p>
+          <p className="text-[11px] tracking-[.2em] uppercase text-[#c5a880] mb-5">Services</p>
           <ul className="flex flex-col gap-3">
             {services.map((s) => (
               <li key={s}>
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <p className="text-[11px] tracking-[.2em] uppercase text-[#3B82F6] mb-5">Contact</p>
+          <p className="text-[11px] tracking-[.2em] uppercase text-[#c5a880] mb-5">Contact</p>
           {[
             { label: 'Email', val: 'ipintemidaraa@gmail.com' },
             { label: 'Phone', val: '+234 708 197 1780' },
@@ -110,7 +110,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/[.05] pt-7 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-[12px] text-white/25">
-          © 2026 <span className="text-[#3B82F6]">Ipintemidara Adebayo</span>. All rights reserved.
+          © 2026 <span className="text-[#c5a880]">Ipintemidara Adebayo</span>. All rights reserved.
         </p>
         <div className="flex flex-wrap gap-x-6 gap-y-2">
           {['Privacy Policy', 'Terms of Use', 'Sitemap'].map((l) => (

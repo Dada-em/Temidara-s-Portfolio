@@ -43,22 +43,21 @@ const steps = [
       <section id="approach" className="bg-[#f7f5f0] py-16 sm:py-20 border-t border-stone-200/60">
         <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-14">
   
-        {/* Header */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between md:gap-10 mb-12 sm:mb-14">
-          <div>
-            <div className="inline-flex items-center gap-2 border border-[#3B82F6]/30 bg-white/60 rounded-full px-4 py-1.5 mb-5">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]" />
-              <span className="text-[11px] tracking-[.14em] uppercase text-[#2563EB]">Design Philosophy</span>
-            </div>
-            <h2 className="font-serif text-[clamp(32px,5vw,48px)] font-normal text-stone-900 leading-[1.1] max-w-[460px]">
-              The way every<br />
-              <em className="italic text-[#3B82F6]">project</em> takes shape
-            </h2>
+        {/* Centered header */}
+        <header className="mx-auto mb-12 sm:mb-14 max-w-3xl text-center">
+          <div className="inline-flex items-center justify-center gap-2 border border-[#c5a880]/30 bg-white/60 rounded-full px-4 py-1.5 mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#c5a880]" />
+            <span className="font-sans text-[11px] tracking-[.14em] uppercase text-[#a98d69]">Design Philosophy</span>
           </div>
-          <p className="text-[14px] font-light text-stone-600 leading-[1.8] max-w-[420px] md:text-right">
-            Every structure begins long before a single line is drawn — it starts with listening, understanding, and asking the right questions.
+          <h2 className="font-serif text-[clamp(32px,5vw,48px)] font-normal text-stone-900 leading-[1.12] mb-5">
+            The way every{' '}
+            <em className="italic text-[#c5a880]">project</em> takes shape
+          </h2>
+          <p className="font-sans text-[15px] sm:text-[16px] font-light text-stone-600 leading-[1.85]">
+            Every structure begins long before a single line is drawn — it starts with listening,
+            understanding, and asking the right questions.
           </p>
-        </div>
+        </header>
   
         {/* Steps */}
         <div className="flex flex-col bg-white border border-stone-200/80 rounded-2xl shadow-sm px-5 sm:px-8 lg:px-10">
@@ -68,17 +67,17 @@ const steps = [
               className="grid grid-cols-1 gap-6 py-8 border-t border-stone-200/80 first:border-t-0 last:border-b-0 group md:grid-cols-[80px_1fr_1.25fr] md:items-start md:gap-10 md:py-9"
             >
               {/* Number */}
-              <span className="font-serif text-[13px] text-[#3B82F6]/55 tracking-[.1em] pt-1 group-hover:text-[#2563EB] transition-colors">
+              <span className="font-serif text-[13px] text-[#c5a880]/55 tracking-[.1em] pt-1 group-hover:text-[#a98d69] transition-colors">
                 {step.num}
               </span>
   
               {/* Left */}
               <div>
-                <h3 className="font-serif text-[26px] font-normal text-stone-900 leading-[1.15] group-hover:text-[#1e3a5f] transition-colors">
+                <h3 className="font-serif text-[26px] font-normal text-stone-900 leading-[1.15] group-hover:text-[#3c3430] transition-colors">
                   {step.title[0]}<br />
-                  <em className="italic text-[#3B82F6]">{step.title[1].replace('&', '').trim()}</em>
+                  <em className="italic text-[#c5a880]">{step.title[1].replace('&', '').trim()}</em>
                 </h3>
-                <div className="inline-flex items-center gap-1.5 bg-[#3B82F6]/10 border border-[#3B82F6]/20 rounded-full px-3 py-1 text-[11px] text-[#2563EB] mt-3">
+                <div className="inline-flex items-center gap-1.5 bg-[#c5a880]/10 border border-[#c5a880]/20 rounded-full px-3 py-1 text-[11px] text-[#a98d69] mt-3">
                   {step.pill}
                 </div>
               </div>

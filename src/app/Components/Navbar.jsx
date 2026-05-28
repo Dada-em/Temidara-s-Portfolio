@@ -31,7 +31,7 @@ export default function Navbar() {
           className="font-cormorant text-white text-lg font-light tracking-widest uppercase"
           onClick={() => setOpen(false)}
         >
-          Ipin<span className="text-[#3B82F6]">temidara</span>
+          Ipin<span className="text-[#c5a880]">temidara</span>
         </Link>
 
         {/* Desktop nav */}
