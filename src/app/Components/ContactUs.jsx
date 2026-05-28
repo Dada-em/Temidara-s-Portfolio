@@ -30,7 +30,7 @@ const contactMethods = [
   {
     id: "location",
     label: "Location",
-    value: "Lagos, Nigeria",
+    value: "Oyo State, Nigeria",
     href: null,
     icon: (
       <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">

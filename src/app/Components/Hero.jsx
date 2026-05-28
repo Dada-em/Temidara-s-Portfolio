@@ -41,14 +41,16 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-7">
+              <a
+              href="https://drive.google.com/file/d/1TDSuVdtQhRKGgjRfklKJ7WPn1wKrujxO/view?usp=drivesdk" // <-- Replace with your actual external URL
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[11px] font-medium tracking-widest uppercase text-white bg-[#c5a880] dark:bg-[#3B82F6] px-8 py-3.5 hover:bg-[#a98d69] dark:hover:bg-[#2563EB] transition-colors"
+            >
+              View Portfolio
+            </a>
               <Link
-                href="#"
-                className="text-[11px] font-medium tracking-widest uppercase text-white bg-[#c5a880] dark:bg-[#3B82F6] px-8 py-3.5 hover:bg-[#a98d69] dark:hover:bg-[#2563EB] transition-colors"
-              >
-                View Portfolio
-              </Link>
-              <Link
-                href="#"
+                href="/#approach"
                 className="text-[11px] font-medium tracking-widest uppercase text-white/75 hover:text-white flex items-center gap-2 transition-colors group"
               >
                 Our Process

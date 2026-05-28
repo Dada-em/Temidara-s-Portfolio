@@ -103,7 +103,7 @@ export default function Footer() {
           {[
             { label: 'Email', val: 'ipintemidaraa@gmail.com' },
             { label: 'Phone', val: '+234 708 197 1780' },
-            { label: 'Location', val: 'Lagos, Nigeria' },
+            { label: 'Location', val: 'Oyo State, Nigeria' },
           ].map((c) => (
             <div key={c.label} className="mb-4">
               <p className="text-[10px] tracking-[.14em] uppercase text-white/25 mb-0.5">{c.label}</p>

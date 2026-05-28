@@ -27,7 +27,7 @@ export const metadata = {
     template: "%s | Ipintemidara Adebayo",
   },
   description:
-    "Architecture portfolio featuring BIM modelling, 3D visualisation, technical drafting, and site supervision. Based in Lagos, Nigeria.",
+    "Architecture portfolio featuring BIM modelling, 3D visualisation, technical drafting, and site supervision. Based in Oyo State, Nigeria.",
   openGraph: {
     title: "Ipintemidara Adebayo | Architecture & Design",
     description:
