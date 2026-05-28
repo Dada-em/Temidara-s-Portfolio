@@ -40,59 +40,59 @@ const steps = [
   
   export default function ApproachSection() {
     return (
-      <section className="bg-[#0f0f0f] py-16 sm:py-20">
+      <section id="approach" className="bg-[#f7f5f0] py-16 sm:py-20 border-t border-stone-200/60">
         <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-14">
   
         {/* Header */}
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between md:gap-10 mb-12 sm:mb-14">
           <div>
-            <div className="inline-flex items-center gap-2 border border-[#3B82F6]/35 rounded-full px-4 py-1.5 mb-5">
+            <div className="inline-flex items-center gap-2 border border-[#3B82F6]/30 bg-white/60 rounded-full px-4 py-1.5 mb-5">
               <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]" />
-              <span className="text-[11px] tracking-[.14em] uppercase text-[#3B82F6]">Design Philosophy</span>
+              <span className="text-[11px] tracking-[.14em] uppercase text-[#2563EB]">Design Philosophy</span>
             </div>
-            <h2 className="font-serif text-[clamp(32px,5vw,48px)] font-normal text-[#f0ede4] leading-[1.1] max-w-[460px]">
+            <h2 className="font-serif text-[clamp(32px,5vw,48px)] font-normal text-stone-900 leading-[1.1] max-w-[460px]">
               The way every<br />
               <em className="italic text-[#3B82F6]">project</em> takes shape
             </h2>
           </div>
-          <p className="text-[14px] font-light text-[#f0ede4]/45 leading-[1.8] max-w-[420px] md:text-right">
+          <p className="text-[14px] font-light text-stone-600 leading-[1.8] max-w-[420px] md:text-right">
             Every structure begins long before a single line is drawn — it starts with listening, understanding, and asking the right questions.
           </p>
         </div>
   
         {/* Steps */}
-        <div className="flex flex-col">
-          {steps.map((step, i) => (
+        <div className="flex flex-col bg-white border border-stone-200/80 rounded-2xl shadow-sm px-5 sm:px-8 lg:px-10">
+          {steps.map((step) => (
             <div
               key={step.num}
-              className="grid grid-cols-1 gap-6 py-8 border-t border-white/[.06] last:border-b last:border-white/[.06] group md:grid-cols-[80px_1fr_1.25fr] md:items-start md:gap-10 md:py-9"
+              className="grid grid-cols-1 gap-6 py-8 border-t border-stone-200/80 first:border-t-0 last:border-b-0 group md:grid-cols-[80px_1fr_1.25fr] md:items-start md:gap-10 md:py-9"
             >
               {/* Number */}
-              <span className="font-serif text-[13px] text-[#3B82F6]/50 tracking-[.1em] pt-1 group-hover:text-[#3B82F6] transition-colors">
+              <span className="font-serif text-[13px] text-[#3B82F6]/55 tracking-[.1em] pt-1 group-hover:text-[#2563EB] transition-colors">
                 {step.num}
               </span>
   
               {/* Left */}
               <div>
-                <h3 className="font-serif text-[26px] font-normal text-[#f0ede4] leading-[1.15] group-hover:text-white transition-colors">
+                <h3 className="font-serif text-[26px] font-normal text-stone-900 leading-[1.15] group-hover:text-[#1e3a5f] transition-colors">
                   {step.title[0]}<br />
                   <em className="italic text-[#3B82F6]">{step.title[1].replace('&', '').trim()}</em>
                 </h3>
-                <div className="inline-flex items-center gap-1.5 bg-[#3B82F6]/[.10] border border-[#3B82F6]/[.22] rounded-full px-3 py-1 text-[11px] text-[#3B82F6]/90 mt-3">
+                <div className="inline-flex items-center gap-1.5 bg-[#3B82F6]/10 border border-[#3B82F6]/20 rounded-full px-3 py-1 text-[11px] text-[#2563EB] mt-3">
                   {step.pill}
                 </div>
               </div>
   
               {/* Right */}
               <div className="pt-1">
-                <p className="text-[14px] font-light text-[#f0ede4]/55 leading-[1.8] mb-4">
+                <p className="text-[14px] font-light text-stone-600 leading-[1.8] mb-4">
                   {step.desc}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {step.tools.map((t) => (
                     <span
                       key={t}
-                      className="text-[11px] text-[#f0ede4]/35 border border-white/[.07] rounded-md px-2.5 py-1"
+                      className="text-[11px] text-stone-600 border border-stone-200 bg-stone-50 rounded-md px-2.5 py-1"
                     >
                       {t}
                     </span>
