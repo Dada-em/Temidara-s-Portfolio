@@ -7,7 +7,7 @@ const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About", href: "/#about" },
   { label: "Projects", href: "/projects" },
-  { label: "Services", href: "/services" },
+  { label: "Services", href: "/#services" },
   { label: "Contact", href: "/#contact" },
 ];
 
