@@ -43,7 +43,7 @@ const contactMethods = [
 
 const socialLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/ipintemidara" },
-  { label: "Instagram", href: "https://instagram.com/A.Tstudios" },
+  { label: "Instagram", href: "https://www.instagram.com/t3m1_07?igsh=Y2oxNGt1ajY4aGRm" },
 ];
 
 export default function ContactSection() {

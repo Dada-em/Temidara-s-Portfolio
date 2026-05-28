@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="flex gap-2.5">
             {[
               { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ipintemidara' },
-              { label: 'Instagram', href: '#' },
+              { label: 'Instagram', href: 'https://www.instagram.com/t3m1_07?igsh=Y2oxNGt1ajY4aGRm' },
               { label: 'Email', href: 'mailto:ipintemidaraa@gmail.com' },
             ].map((s) => (
               <Link
