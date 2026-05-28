@@ -27,18 +27,6 @@ const contactMethods = [
       </svg>
     ),
   },
-  {
-    id: "location",
-    label: "Location",
-    value: "Oyo State, Nigeria",
-    href: null,
-    icon: (
-      <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-        <circle cx="12" cy="10" r="3" />
-      </svg>
-    ),
-  },
 ];
 
 const socialLinks = [
@@ -50,7 +38,9 @@ const socialLinks = [
 export default function ContactSection() {
   const [copied, setCopied] = useState(null);
 
-  const handleCopy = async (text, id) => {
+  const handleCopy = async (e, text, id) => {
+    e.preventDefault();
+    e.stopPropagation();
     try {
       await navigator.clipboard.writeText(text);
       setCopied(id);
@@ -84,11 +74,12 @@ export default function ContactSection() {
         </header>
 
         {/* Contact Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 max-w-3xl mx-auto">
           {contactMethods.map((method) => (
-            <div
+            <a
               key={method.id}
-              className="group bg-white dark:bg-[#1a1613] border border-stone-200/80 dark:border-stone-800/80 rounded-2xl p-6 sm:p-7 shadow-sm transition-all duration-300 hover:border-[#c5a880]/40 dark:hover:border-[#3B82F6]/40 hover:-translate-y-0.5"
+              href={method.href}
+              className="group bg-white dark:bg-[#1a1613] border border-stone-200/80 dark:border-stone-800/80 rounded-2xl p-6 sm:p-7 shadow-sm transition-all duration-300 hover:border-[#c5a880]/40 dark:hover:border-[#3B82F6]/40 hover:-translate-y-0.5 block"
             >
               {/* Icon */}
               <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#c5a880]/30 dark:border-[#3B82F6]/30 text-[#a98d69] dark:text-[#3B82F6] mb-4 transition duration-300 group-hover:bg-[#c5a880] dark:group-hover:bg-[#3B82F6] group-hover:text-white dark:group-hover:text-white">
@@ -102,40 +93,29 @@ export default function ContactSection() {
 
               {/* Value */}
               <div className="flex items-center justify-between gap-3">
-                {method.href ? (
-                  <a
-                    href={method.href}
-                    className="text-[15px] font-light text-stone-900 dark:text-stone-100 hover:text-[#a98d69] dark:hover:text-[#3B82F6] transition-colors leading-snug break-all"
-                  >
-                    {method.value}
-                  </a>
-                ) : (
-                  <span className="text-[15px] font-light text-stone-900 dark:text-stone-100 leading-snug">
-                    {method.value}
-                  </span>
-                )}
+                <span className="text-[15px] font-light text-stone-900 dark:text-stone-100 group-hover:text-[#a98d69] dark:group-hover:text-[#3B82F6] transition-colors leading-snug break-all">
+                  {method.value}
+                </span>
 
-                {/* Copy button for email & phone */}
-                {method.id !== "location" && (
-                  <button
-                    onClick={() => handleCopy(method.value, method.id)}
-                    className="shrink-0 flex h-8 w-8 items-center justify-center rounded-full border border-stone-200 dark:border-stone-800 text-stone-400 dark:text-stone-500 hover:border-[#c5a880] dark:hover:border-[#3B82F6] hover:text-[#a98d69] dark:hover:text-[#3B82F6] transition-all duration-300"
-                    title="Copy to clipboard"
-                  >
-                    {copied === method.id ? (
-                      <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                        <path d="M20 6 9 17l-5-5" />
-                      </svg>
-                    ) : (
-                      <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                        <rect x="9" y="9" width="13" height="13" rx="2" />
-                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-                      </svg>
-                    )}
-                  </button>
-                )}
+                {/* Copy button */}
+                <button
+                  onClick={(e) => handleCopy(e, method.value, method.id)}
+                  className="shrink-0 flex h-8 w-8 items-center justify-center rounded-full border border-stone-200 dark:border-stone-800 text-stone-400 dark:text-stone-500 hover:border-[#c5a880] dark:hover:border-[#3B82F6] hover:text-[#a98d69] dark:hover:text-[#3B82F6] transition-all duration-300"
+                  title="Copy to clipboard"
+                >
+                  {copied === method.id ? (
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg>
+                  ) : (
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <rect x="9" y="9" width="13" height="13" rx="2" />
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                    </svg>
+                  )}
+                </button>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
