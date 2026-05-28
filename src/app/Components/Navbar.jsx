@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import NextLink from "next/link";
 
 const NAV_ITEMS = [
-  { label: "Home", href: "#" },
+  { label: "Home", href: "/" },
   { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Services", href: "#services" },
+  { label: "Projects", href: "/projects" },
+  { label: "Services", href: "/services" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-stone-200/50 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:border-white/10 dark:bg-black/55 dark:supports-[backdrop-filter]:bg-black/45 transition-colors duration-300">
+    <header className="sticky top-0 z-50 w-full border-b border-stone-200/50 bg-white/70 backdrop-blur supports-backdrop-filter:bg-white/60 dark:border-white/10 dark:bg-black/55 dark:supports-backdrop-filter:bg-black/45 transition-colors duration-300">
       <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-14">
         <NextLink
           href="#"
@@ -65,7 +65,7 @@ export default function Navbar() {
             <li key={item.label}>
               <NextLink
                 href={item.href}
-                className="text-[11px] font-light tracking-[0.1em] uppercase text-stone-600 hover:text-stone-900 dark:text-white/70 dark:hover:text-white transition-colors"
+                className="text-[11px] font-light tracking-widest uppercase text-stone-600 hover:text-stone-900 dark:text-white/70 dark:hover:text-white transition-colors"
               >
                 {item.label}
               </NextLink>

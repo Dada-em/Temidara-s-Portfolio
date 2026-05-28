@@ -6,7 +6,7 @@ const services = ['BIM Modelling', '3D Visualisation', 'Technical Drafting', 'Si
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0a0a0a] border-t border-white/[.06] pt-16 sm:pt-20 pb-8">
+    <footer id="contact" className="bg-[#0a0a0a] border-t border-white/[.06] pt-16 sm:pt-20 pb-8">
       <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-14">
 
       {/* CTA Strip */}
@@ -68,7 +68,14 @@ export default function Footer() {
           <ul className="flex flex-col gap-3">
             {navLinks.map((l) => (
               <li key={l}>
-                <Link href={l === 'Home' ? '/' : `/${l.toLowerCase()}`} className="text-[13px] font-light text-[#f0ede4]/50 hover:text-[#f0ede4] transition-colors">
+                <Link
+                  href={
+                    l === 'Home' ? '/' :
+                    l === 'Projects' ? '/projects' :
+                    `/#${l.toLowerCase()}`
+                  }
+                  className="text-[13px] font-light text-[#f0ede4]/50 hover:text-[#f0ede4] transition-colors"
+                >
                   {l}
                 </Link>
               </li>
@@ -82,7 +89,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-3">
             {services.map((s) => (
               <li key={s}>
-                <Link href="/services" className="text-[13px] font-light text-[#f0ede4]/50 hover:text-[#f0ede4] transition-colors">
+                <Link href="/#services" className="text-[13px] font-light text-[#f0ede4]/50 hover:text-[#f0ede4] transition-colors">
                   {s}
                 </Link>
               </li>

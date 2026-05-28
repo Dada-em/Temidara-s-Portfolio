@@ -40,7 +40,7 @@ const steps = [
   
   export default function ApproachSection() {
     return (
-      <section id="approach" className="bg-[#f7f5f0] dark:bg-[#12100e] py-16 sm:py-20 border-t border-stone-200/60 dark:border-stone-800/60 transition-colors duration-300">
+      <section id="services" className="bg-[#f7f5f0] dark:bg-[#12100e] py-16 sm:py-20 border-t border-stone-200/60 dark:border-stone-800/60 transition-colors duration-300">
         <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-14">
   
         {/* Centered header */}

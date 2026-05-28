@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "slug": "eco-paradise-lagos",
+    "title": "Eco Paradise — Lagos",
+    "category": "Mixed-Use Residential",
+    "year": "2025",
+    "desc": "Contemporary mixed-use condominium in Eko Atlantic integrating luxury apartments, retail, recreation, daycare, and sustainable smart-living solutions.",
+    "image": "/eco-paradise.png",
+    "tools": ["Revit", "AutoCAD", "Enscape"],
+    "wide": true,
+    "details": {
+      "overview": "Eco Paradise is a contemporary mixed-use condominium development located in the prestigious Eko Atlantic City, Lagos. Designed to redefine urban residential living, the project combines luxury housing with lifestyle-enhancing amenities in a carefully planned environment. The development features over fifteen apartment configurations, including one-bedroom apartments, three-bedroom units, and duplex residences, tailored to accommodate diverse user needs. Beyond residential living, Eco Paradise incorporates retail convenience spaces, recreational facilities, swimming areas, lounges, daycare services, and afterschool facilities to encourage a vibrant community lifestyle. Planned on a 9,600m² site with a maximum 50% building coverage, the project prioritizes sustainability, smart living, and functional spatial organization while maintaining a premium residential experience for professionals and families.",
+      "concept": "The project explores contemporary smart living through a blend of luxury, sustainability, and functionality, creating an environment where comfort, recreation, and convenience coexist seamlessly.",
+      "highlights": [
+        "15+ apartment variations including duplexes",
+        "Swimming pool and recreational facilities",
+        "Retail convenience store",
+        "Daycare and afterschool center",
+        "Sustainable site planning",
+        "Smart-living design approach"
+      ],
+      "gallery": [
+        "/eco-paradise-1.png",
+        "/eco-paradise-2.png",
+        "/eco-paradise-3.png"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "slug": "architectural-studio-complex-ede",
+    "title": "Architectural Studio Complex — Ede",
+    "category": "Educational",
+    "year": "2024",
+    "desc": "Designed a collaborative architecture studio complex with passive cooling, solar shading, courtyards, and naturally ventilated learning spaces.",
+    "image": "/studio-complex.png",
+    "tools": ["Revit", "AutoCAD", "SketchUp"],
+    "wide": false,
+    "details": {
+      "overview": "The Architectural Studio Complex was designed for Redeemer’s University, Ede, as a dedicated academic facility aimed at fostering creativity, collaboration, and architectural innovation among students. The complex consists of six studio spaces distributed across two floors, each designed to accommodate up to fifty students in an open and flexible learning environment. Particular emphasis was placed on environmental responsiveness through passive design strategies, including fixed vertical shading fins to reduce solar heat gain, optimized window placements, and a central courtyard to improve natural lighting and ventilation. Support facilities such as lecturers’ offices and circulation zones were strategically integrated to ensure accessibility, comfort, and efficient movement throughout the building.",
+      "concept": "The design emphasizes collaborative learning through openness, environmental responsiveness, and sustainable passive cooling techniques that improve comfort and productivity.",
+      "highlights": [
+        "6 architecture studios across 2 floors",
+        "Passive solar shading system",
+        "Central courtyard for ventilation",
+        "Natural daylight optimization",
+        "Flexible open-plan learning spaces",
+        "Strategic circulation and accessibility"
+      ],
+      "gallery": [
+        "/studio-complex-1.png",
+        "/studio-complex-2.png"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "slug": "toyotemz-headquarters-ibadan",
+    "title": "Toyotemz Headquarters — Ibadan",
+    "category": "Commercial",
+    "year": "2024",
+    "desc": "State-of-the-art automobile showroom and spare parts headquarters featuring luxury display spaces, executive offices, and efficient customer circulation.",
+    "image": "/toyotemz-headquarters.png",
+    "tools": ["Revit", "AutoCAD", "Lumion"],
+    "wide": true,
+    "details": {
+      "overview": "Toyotemz Headquarters is a state-of-the-art automobile showroom and spare parts facility developed during internship training at Mobolaji Adeniyi and Associates. Located in Ibadan, the project was designed to function as both a commercial automobile display center and a corporate headquarters. The design accommodates up to fifteen vehicle models with provisions for future scalability to thirty vehicles through a modular showroom arrangement. Functional zoning was prioritized to ensure smooth movement between vehicle display areas, spare parts retail, executive offices, and collaborative workspaces. A luxury-focused display area was also incorporated to highlight premium vehicles while improving customer engagement and brand visibility across the 1,650m² site.",
+      "concept": "Inspired by the geometry of inclined tires, the concept “Dynamic Traction” transforms automotive motion and stability into a bold architectural expression.",
+      "highlights": [
+        "Luxury automobile showroom",
+        "Spare parts retail integration",
+        "Scalable modular display system",
+        "Executive office spaces",
+        "Dedicated luxury display area",
+        "Efficient customer and service circulation"
+      ],
+      "gallery": [
+        "/toyotemz-headquarters-1.png",
+        "/toyotemz-headquarters-2.png"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "slug": "whistle-mall",
+    "title": "Whistle Mall",
+    "category": "Commercial Retail",
+    "year": "2024",
+    "desc": "Dynamic retail mall inspired by playful geometry, combining entertainment, shopping, aquarium-centered social spaces, and immersive visitor experiences.",
+    "image": "/whistle-mall.png",
+    "tools": ["AutoCAD", "SketchUp", "Lumion"],
+    "wide": true,
+    "details": {
+      "overview": "Whistle Mall is a commercial retail and entertainment development designed around the concept of “Playful Geometry,” challenging the conventional static shopping mall experience. The architectural form is derived from the strategic synthesis of three primary geometric shapes — the circle, rectangle, and triangle — collectively forming a dynamic whistle-inspired identity. The development integrates retail shops, entertainment areas, food courts, supermarkets, and social gathering spaces around a central atrium anchored by an aquarium feature. Visitor movement was intentionally designed to create anticipation and engagement, encouraging interaction with the mall’s attractions before reaching functional retail destinations. The project combines experiential architecture with practical circulation, safety planning, and commercial visibility.",
+      "concept": "The “Playful Geometry” concept transforms shopping into an immersive experience by combining dynamic architectural forms with curiosity-driven spatial movement.",
+      "highlights": [
+        "Whistle-inspired architectural identity",
+        "Central aquarium social hub",
+        "Entertainment and leisure facilities",
+        "Food court and supermarket integration",
+        "Pedestrian-focused circulation",
+        "Dynamic retail experience design"
+      ],
+      "gallery": [
+        "/whistle-mall-1.png"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "slug": "5-bedroom-duplex",
+    "title": "5-Bedroom Duplex",
+    "category": "Residential",
+    "year": "2023",
+    "desc": "Contemporary residential duplex design focused on spatial comfort, functional zoning, modern aesthetics, and efficient family-oriented living.",
+    "image": "/5-bedroom.png",
+    "tools": ["Revit", "AutoCAD"],
+    "wide": false,
+    "details": {
+      "overview": "This five-bedroom duplex project was designed as a modern residential solution prioritizing family comfort, functional organization, and contemporary aesthetics. The design carefully balances private and communal spaces to create an efficient living environment that supports everyday family activities while maintaining visual appeal. Emphasis was placed on spatial flow, lighting, and comfort to ensure the residence delivers both practicality and elegance.",
+      "concept": "A family-centered residential design balancing comfort, aesthetics, and efficient functional zoning.",
+      "highlights": [
+        "5-bedroom residential layout",
+        "Modern architectural styling",
+        "Functional family zoning",
+        "Comfort-focused planning",
+        "Balanced indoor spaces"
+      ],
+      "gallery": [
+        "/5-bedroom-duplex-1.png",
+        "/5-bedroom-duplex-2.png"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "slug": "4-bedroom-duplex",
+    "title": "4-Bedroom Duplex",
+    "category": "Residential",
+    "year": "2023",
+    "desc": "Modern duplex residential project emphasizing efficient layouts, comfortable living spaces, contemporary form, and practical functionality.",
+    "image": "/4-bedroom-duplex.png",
+    "tools": ["Revit", "AutoCAD"],
+    "wide": false,
+    "details": {
+      "overview": "The four-bedroom duplex project explores modern residential architecture through efficient planning, functional zoning, and visually appealing contemporary forms. Designed to maximize comfort and practicality, the residence integrates spacious living areas with organized circulation to support daily family life while maintaining a clean architectural identity.",
+      "concept": "A contemporary duplex emphasizing efficient spatial planning and practical family living.",
+      "highlights": [
+        "4-bedroom modern duplex",
+        "Efficient spatial organization",
+        "Contemporary architectural design",
+        "Comfort-oriented planning",
+        "Functional circulation"
+      ],
+      "gallery": [
+        "/4-bedroom-duplex-1.png",
+        "/4-bedroom-duplex-2.png",
+        "/4-bedroom-duplex-3.png"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "slug": "3-bedroom-apartment",
+    "title": "3-Bedroom Apartment",
+    "category": "Residential",
+    "year": "2023",
+    "desc": "Residential apartment design balancing comfort, functionality, and modern architectural planning for efficient everyday family living.",
+    "image": "/3-BED-3D.jpeg",
+    "tools": ["Revit", "AutoCAD"],
+    "wide": false,
+    "details": {
+      "overview": "This three-bedroom apartment project was designed to provide a practical and comfortable residential environment while maintaining a modern architectural identity. The design prioritizes functional layouts, spatial efficiency, and user comfort, creating a balanced environment suitable for contemporary family living.",
+      "concept": "A compact but efficient residential solution focused on comfort, simplicity, and modern living.",
+      "highlights": [
+        "3-bedroom apartment design",
+        "Efficient layout planning",
+        "Modern residential aesthetics",
+        "Comfort-driven spaces",
+        "Practical everyday living"
+      ],
+      "gallery": [
+        "/3-bedroom-apartment-1.jpeg",
+        "/3-bedroom-apartment-2.jpeg"
+      ]
+    }
+  }
+]
