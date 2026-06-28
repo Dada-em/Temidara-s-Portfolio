@@ -5,14 +5,14 @@ const steps = [
       num: '01',
       title: ['Listen &', 'Discover'],
       pill: 'Brief & Consultation',
-      desc: "Every project begins with deep listening. Before a single line is drawn, the client's vision, lifestyle, and constraints are mapped out — turning aspirations into a clear architectural brief that guides every decision to follow.",
+      desc: "Every project begins with deep listening. Before a single line is drawn, the client's vision, lifestyle, and constraints are mapped out, turning aspirations into a clear architectural brief that guides every decision to follow.",
       tools: ['Client Workshops', 'Site Analysis', 'Brief Writing'],
     },
     {
       num: '02',
       title: ['Sketch &', 'Concept'],
       pill: 'Concept Design',
-      desc: 'Ideas are given physical form through concept sketches, mood boards, and spatial explorations. This phase is intentionally raw and iterative — pushing boundaries, testing ideas, and narrowing down to the direction that best serves the brief.',
+      desc: 'Ideas are given physical form through concept sketches, mood boards, and spatial explorations. This phase is intentionally raw and iterative, pushing boundaries, testing ideas, and narrowing down to the direction that best serves the brief.',
       tools: ['Hand Sketching', 'Mood Boards', 'SketchUp'],
     },
     {
@@ -26,14 +26,14 @@ const steps = [
       num: '04',
       title: ['Document &', 'Detail'],
       pill: 'Technical Drawings',
-      desc: 'Every design is translated into precise, buildable construction documentation — detailed drawings, specifications, and schedules that leave nothing to interpretation on site.',
+      desc: 'Every design is translated into precise, buildable construction documentation, detailed drawings, specifications, and schedules that leave nothing to interpretation on site.',
       tools: ['Working Drawings', 'Specifications', 'Consultant Coordination'],
     },
     {
       num: '05',
       title: ['Build &', 'Deliver'],
       pill: 'Site Supervision',
-      desc: 'On-site presence ensures designs are executed exactly as intended. From foundation to finishing, quality is monitored at every phase — with as-built documentation, contractor liaison, and a commitment to delivering spaces that match the vision precisely.',
+      desc: 'On-site presence ensures designs are executed exactly as intended. From foundation to finishing, quality is monitored at every phase with as-built documentation, contractor liaison, and a commitment to delivering spaces that match the vision precisely.',
       tools: ['Site Visits', 'Quality Control', 'As-Built Docs'],
     },
   ]
@@ -53,7 +53,7 @@ const steps = [
             <em className="italic text-[#c5a880] dark:text-[#3B82F6]">project</em> takes shape
           </h2>
           <p className="font-sans text-[15px] sm:text-[16px] font-light text-stone-600 dark:text-stone-300 leading-[1.85]">
-            Every structure begins long before a single line is drawn — it starts with listening,
+            Every structure begins long before a single line is drawn, it starts with listening,
             understanding, and asking the right questions.
           </p>
         </header>

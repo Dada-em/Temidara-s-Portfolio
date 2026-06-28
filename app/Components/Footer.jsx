@@ -16,7 +16,7 @@ export default function Footer() {
             Ready to start your next project?
           </h3>
           <p className="text-[13px] font-light text-[#f0ede4]/45 leading-relaxed">
-            Let's collaborate — from concept to completion, every detail considered.
+            Let's collaborate from concept to completion, every detail considered.
           </p>
         </div>
         <Link

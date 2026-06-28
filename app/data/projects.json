@@ -2,7 +2,7 @@
   {
     "id": 1,
     "slug": "eco-paradise-lagos",
-    "title": "Eco Paradise — Lagos",
+    "title": "Eco Paradise: Lagos",
     "category": "Mixed-Use Residential",
     "year": "2025",
     "desc": "Contemporary mixed-use condominium in Eko Atlantic integrating luxury apartments, retail, recreation, daycare, and sustainable smart-living solutions.",
@@ -30,7 +30,7 @@
   {
     "id": 2,
     "slug": "architectural-studio-complex-ede",
-    "title": "Architectural Studio Complex — Ede",
+    "title": "Architectural Studio Complex: Ede",
     "category": "Educational",
     "year": "2024",
     "desc": "Designed a collaborative architecture studio complex with passive cooling, solar shading, courtyards, and naturally ventilated learning spaces.",
@@ -57,12 +57,12 @@
   {
     "id": 3,
     "slug": "toyotemz-headquarters-ibadan",
-    "title": "Toyotemz Headquarters — Ibadan",
+    "title": "Toyotemz Headquarters: Ibadan",
     "category": "Commercial",
     "year": "2024",
     "desc": "State-of-the-art automobile showroom and spare parts headquarters featuring luxury display spaces, executive offices, and efficient customer circulation.",
     "image": "/toyotemz-headquarters.png",
-    "tools": ["Revit", "AutoCAD", "Lumion"],
+    "tools": ["Revit", "AutoCAD"],
     "wide": true,
     "details": {
       "overview": "Toyotemz Headquarters is a state-of-the-art automobile showroom and spare parts facility developed during internship training at Mobolaji Adeniyi and Associates. Located in Ibadan, the project was designed to function as both a commercial automobile display center and a corporate headquarters. The design accommodates up to fifteen vehicle models with provisions for future scalability to thirty vehicles through a modular showroom arrangement. Functional zoning was prioritized to ensure smooth movement between vehicle display areas, spare parts retail, executive offices, and collaborative workspaces. A luxury-focused display area was also incorporated to highlight premium vehicles while improving customer engagement and brand visibility across the 1,650m² site.",
@@ -70,7 +70,6 @@
       "highlights": [
         "Luxury automobile showroom",
         "Spare parts retail integration",
-        "Scalable modular display system",
         "Executive office spaces",
         "Dedicated luxury display area",
         "Efficient customer and service circulation"
@@ -89,10 +88,10 @@
     "year": "2024",
     "desc": "Dynamic retail mall inspired by playful geometry, combining entertainment, shopping, aquarium-centered social spaces, and immersive visitor experiences.",
     "image": "/whistle-mall.png",
-    "tools": ["AutoCAD", "SketchUp", "Lumion"],
+    "tools": ["AutoCAD", "SketchUp"],
     "wide": true,
     "details": {
-      "overview": "Whistle Mall is a commercial retail and entertainment development designed around the concept of “Playful Geometry,” challenging the conventional static shopping mall experience. The architectural form is derived from the strategic synthesis of three primary geometric shapes — the circle, rectangle, and triangle — collectively forming a dynamic whistle-inspired identity. The development integrates retail shops, entertainment areas, food courts, supermarkets, and social gathering spaces around a central atrium anchored by an aquarium feature. Visitor movement was intentionally designed to create anticipation and engagement, encouraging interaction with the mall’s attractions before reaching functional retail destinations. The project combines experiential architecture with practical circulation, safety planning, and commercial visibility.",
+      "overview": "Whistle Mall is a commercial retail and entertainment development designed around the concept of “Playful Geometry,” challenging the conventional static shopping mall experience. The architectural form is derived from the strategic synthesis of three primary geometric shapes, the circle, rectangle, and triangle, collectively forming a dynamic whistle-inspired identity. The development integrates retail shops, entertainment areas, food courts, supermarkets, and social gathering spaces around a central atrium anchored by an aquarium feature. Visitor movement was intentionally designed to create anticipation and engagement, encouraging interaction with the mall’s attractions before reaching functional retail destinations. The project combines experiential architecture with practical circulation, safety planning, and commercial visibility.",
       "concept": "The “Playful Geometry” concept transforms shopping into an immersive experience by combining dynamic architectural forms with curiosity-driven spatial movement.",
       "highlights": [
         "Whistle-inspired architectural identity",
@@ -112,10 +111,10 @@
     "slug": "5-bedroom-duplex",
     "title": "5-Bedroom Duplex",
     "category": "Residential",
-    "year": "2023",
+    "year": "2025",
     "desc": "Contemporary residential duplex design focused on spatial comfort, functional zoning, modern aesthetics, and efficient family-oriented living.",
     "image": "/5-bedroom.png",
-    "tools": ["Revit", "AutoCAD"],
+    "tools": ["Revit", "AutoCAD", "Enscape"],
     "wide": false,
     "details": {
       "overview": "This five-bedroom duplex project was designed as a modern residential solution prioritizing family comfort, functional organization, and contemporary aesthetics. The design carefully balances private and communal spaces to create an efficient living environment that supports everyday family activities while maintaining visual appeal. Emphasis was placed on spatial flow, lighting, and comfort to ensure the residence delivers both practicality and elegance.",
@@ -138,20 +137,23 @@
     "slug": "4-bedroom-duplex",
     "title": "4-Bedroom Duplex",
     "category": "Residential",
-    "year": "2023",
-    "desc": "Modern duplex residential project emphasizing efficient layouts, comfortable living spaces, contemporary form, and practical functionality.",
+    "year": "2026",
+    "desc": "A doctor's modern duplex residence integrating private consulting, personal wellness, and comfortable family living within a refined contemporary form.",
     "image": "/4-bedroom-duplex.png",
-    "tools": ["Revit", "AutoCAD"],
+    "tools": ["Revit", "AutoCAD", "Enscape"],
     "wide": false,
     "details": {
-      "overview": "The four-bedroom duplex project explores modern residential architecture through efficient planning, functional zoning, and visually appealing contemporary forms. Designed to maximize comfort and practicality, the residence integrates spacious living areas with organized circulation to support daily family life while maintaining a clean architectural identity.",
-      "concept": "A contemporary duplex emphasizing efficient spatial planning and practical family living.",
+      "overview": "The four-bedroom duplex is a bespoke residential project designed for a medical professional, balancing the demands of a working lifestyle with the comfort and privacy of family living. The design integrates a private ground-floor consulting room that allows the client to receive patients discreetly without disrupting the household, establishing a clear boundary between professional and personal life within a single residence. Spatially, the building is organized across multiple levels, the lower floors dedicated to family living, entertaining, and professional use, while the penthouse floor is reserved exclusively as a private retreat for the owner. This top level houses a fully equipped personal gym, offering an elevated sanctuary for wellness and recovery away from the main living areas. The architecture responds to the client's dual lifestyle through deliberate zoning, efficient circulation, and a contemporary design language that is both refined and functional. Clean lines, generous openings, and a composed facade give the residence a strong architectural identity while remaining warm and livable at its core.",
+      "concept": "A contemporary duplex designed around a medical professional's lifestyle — integrating private practice, personal wellness, and family living across thoughtfully zoned floors.",
       "highlights": [
-        "4-bedroom modern duplex",
-        "Efficient spatial organization",
-        "Contemporary architectural design",
-        "Comfort-oriented planning",
-        "Functional circulation"
+        "4-bedroom modern duplex tailored for a medical professional",
+        "Private ground-floor consulting room with discreet access for patients",
+        "Exclusive penthouse level dedicated to the owner's personal gym",
+        "Clear zoning between professional, family, and private spaces",
+        "Efficient spatial organization supporting a dual work-home lifestyle",
+        "Contemporary architectural design with a refined, composed facade",
+        "Comfort-oriented planning across all living levels",
+        "Functional circulation minimizing conflict between household and professional activity"
       ],
       "gallery": [
         "/4-bedroom-duplex-1.png",
@@ -165,10 +167,10 @@
     "slug": "3-bedroom-apartment",
     "title": "3-Bedroom Apartment",
     "category": "Residential",
-    "year": "2023",
+    "year": "2025",
     "desc": "Residential apartment design balancing comfort, functionality, and modern architectural planning for efficient everyday family living.",
     "image": "/3-BED-3D.jpeg",
-    "tools": ["Revit", "AutoCAD"],
+    "tools": ["Revit", "AutoCAD", "Enscape"],
     "wide": false,
     "details": {
       "overview": "This three-bedroom apartment project was designed to provide a practical and comfortable residential environment while maintaining a modern architectural identity. The design prioritizes functional layouts, spatial efficiency, and user comfort, creating a balanced environment suitable for contemporary family living.",

@@ -69,9 +69,9 @@ export default function HeroSection() {
           <div className="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
             <div className="flex flex-wrap gap-x-10 gap-y-6 sm:flex-nowrap sm:gap-12">
           {[
-            { num: '12+', label: 'Years Experience' },
-            { num: '80+', label: 'Projects Delivered' },
-            { num: '15+', label: 'Awards Won' },
+            { num: '5+', label: 'Years Experience' },
+            { num: '15+', label: 'Projects Delivered' },
+            { num: '5+', label: 'Awards Won' },
           ].map(({ num, label }) => (
             <div key={label}>
               <div className="font-cormorant text-3xl font-light text-white">{num}</div>

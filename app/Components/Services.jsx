@@ -10,7 +10,7 @@ const services = [
     title: "BIM Modelling",
     shortDesc: "Intelligent 3D building models with full data integration.",
     fullDesc:
-      "Comprehensive Building Information Modelling using Revit and ArchiCAD — producing clash-free, data-rich models that streamline coordination across architecture, structure, and MEP disciplines. From LOD 200 schematic models to LOD 400 fabrication-ready deliverables.",
+      "Comprehensive Building Information Modelling using Revit and ArchiCAD, producing clash-free, data-rich models that streamline coordination across architecture, structure, and MEP disciplines.",
     deliverables: ["Revit Families", "Clash Detection", "Quantity Takeoffs", "4D Simulation"],
   },
   {
@@ -19,7 +19,7 @@ const services = [
     title: "3D Visualisation",
     shortDesc: "Photorealistic renders and immersive walkthroughs.",
     fullDesc:
-      "High-end architectural visualisation that brings unbuilt spaces to life. Still renders, animation sequences, and real-time Enscape walkthroughs — crafted to communicate design intent with cinematic clarity for client presentations and marketing.",
+      "High-end architectural visualisation that brings unbuilt spaces to life. Still renders, animation sequences, and real-time walkthroughs crafted to communicate design intent with cinematic clarity for client presentations and marketing.",
     deliverables: ["Photorealistic Renders", "Fly-through Animations", "VR Walkthroughs", "Mood & Lighting Studies"],
   },
   {
@@ -28,7 +28,7 @@ const services = [
     title: "Technical Drafting",
     shortDesc: "Precise construction documentation and detailing.",
     fullDesc:
-      "Detailed, code-compliant construction drawings ready for tender and build. Working drawings, sections, details, and schedules produced in AutoCAD and Revit — coordinated with structural and services consultants for seamless site execution.",
+      "Detailed, code-compliant construction drawings ready for tender and build. Working drawings, sections, details, and schedules produced in AutoCAD and Revit, coordinated with structural and services consultants for seamless site execution.",
     deliverables: ["Working Drawings", "Detail Sheets", "Door/Window Schedules", "Specification Notes"],
   },
   {
@@ -37,7 +37,7 @@ const services = [
     title: "Site Supervision",
     shortDesc: "On-site quality control and contractor liaison.",
     fullDesc:
-      "Hands-on site management ensuring designs are built exactly as drawn. Regular inspections, RFI coordination, snagging, and as-built documentation — bridging the gap between design studio and construction site with technical authority.",
+      "Hands-on site management ensuring designs are built exactly as drawn. Regular inspections, RFI coordination, snagging, and as-built documentation, bridging the gap between design studio and construction site with technical authority.",
     deliverables: ["Site Visit Reports", "Quality Checklists", "As-Built Drawings", "Contractor Briefings"],
   },
   {
@@ -46,7 +46,7 @@ const services = [
     title: "Interior Design",
     shortDesc: "Spatial planning, fit-out, and material curation.",
     fullDesc:
-      "End-to-end interior architecture from space planning to final styling. Material palettes, furniture layouts, lighting design, and custom joinery details — creating cohesive environments that balance aesthetics, function, and budget.",
+      "End-to-end interior architecture from space planning to final styling. Material palettes, furniture layouts, lighting design, and custom joinery details creating cohesive environments that balance aesthetics, function, and budget.",
     deliverables: ["Space Plans", "Material Boards", "FF&E Schedules", "Joinery Details"],
   },
 ];
@@ -73,7 +73,7 @@ export default function ServicesSection() {
             & craft
           </h2>
           <p className="font-sans text-[15px] sm:text-[16px] font-light text-stone-600 dark:text-stone-300 leading-[1.85]">
-            From early-stage BIM to final site handover — a full spectrum of
+            From early-stage BIM to final site handover, a full spectrum of
             architectural services delivered with technical rigour and design
             sensibility.
           </p>

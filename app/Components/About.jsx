@@ -35,7 +35,7 @@ export default function AboutSection() {
             </h2>
             <p className="font-sans text-[15px] sm:text-[16px] font-light text-stone-600 dark:text-stone-300 leading-[1.85]">
               Ipintemidara Adebayo is a first-class architecture graduate with deep expertise in
-              BIM modelling, 3D visualisation, and site supervision — turning precise technical
+              BIM modelling, 3D visualisation, and site supervision, turning precise technical
               thinking into beautifully buildable designs.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function AboutSection() {
                 Let's bring your project to life
               </h3>
               <p className="text-[13px] font-light text-white/85 leading-[1.7] mb-6">
-                From concept sketches to construction drawings — available for freelance,
+                From concept sketches to construction drawings, available for freelance,
                 full-time, and collaborative work.
               </p>
               <button className="flex items-center gap-2 bg-stone-900 text-white rounded-full px-6 py-3 text-[12px] font-medium tracking-wide hover:bg-stone-800 transition-colors">

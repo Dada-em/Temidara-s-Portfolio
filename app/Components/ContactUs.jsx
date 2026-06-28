@@ -69,7 +69,7 @@ export default function ContactSection() {
           </h2>
           <p className="font-sans text-[15px] sm:text-[16px] font-light text-stone-600 dark:text-stone-300 leading-[1.85]">
             Available for freelance, full-time roles, and collaborative projects.
-            Reach out directly — I respond within 24 hours.
+            Reach out directly, I respond within 24 hours.
           </p>
         </header>
 
