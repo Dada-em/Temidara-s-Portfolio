@@ -67,6 +67,10 @@ export default async function ProjectDetailsPage({ params }) {
     );
   }
 
+  const otherProjects = projects.filter((p) => p.slug !== slug);
+  const shuffled = [...otherProjects].sort(() => 0.5 - Math.random());
+  const recommendedProjects = shuffled.slice(0, 3);
+
   return (
     <>
       <Navbar />
@@ -241,6 +245,80 @@ export default async function ProjectDetailsPage({ params }) {
             </div>
           </div>
         )}
+
+        {/* Other Projects Recommendation Section */}
+        <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-14 mt-16 sm:mt-24 border-t border-stone-200/80 dark:border-stone-800/80 pt-16 sm:pt-20">
+          <div className="mb-10 sm:mb-14">
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-1.5 h-1.5 rounded-full bg-[#c5a880] dark:bg-[#3B82F6]" />
+              <h2 className="font-serif italic text-lg text-[#a98d69] dark:text-[#3B82F6] tracking-wide">Explore</h2>
+            </div>
+            <h3 className="font-serif text-3xl sm:text-4xl text-stone-900 dark:text-stone-100 font-normal leading-tight">
+              Other Projects
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            {recommendedProjects.map((proj) => (
+              <Link
+                key={proj.id}
+                href={`/projects/${proj.slug}`}
+                className="group overflow-hidden rounded-[28px] bg-white dark:bg-[#1a1613] border border-stone-200/80 dark:border-stone-800/80 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#c5a880]/40 dark:hover:border-[#3B82F6]/40 flex flex-col justify-between"
+              >
+                <div>
+                  <div className="overflow-hidden relative aspect-16/10 bg-stone-100 dark:bg-[#25201c] border-b border-stone-100 dark:border-stone-800/50">
+                    <Image
+                      src={proj.image}
+                      alt={proj.title}
+                      fill
+                      className="object-cover brightness-[.97] saturate-[.95] group-hover:brightness-[.93] group-hover:scale-[1.015] transition-all duration-500"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="text-[10px] tracking-[.18em] uppercase text-[#a98d69] dark:text-[#3B82F6] font-semibold">
+                        {proj.category}
+                      </span>
+                      <span className="text-[11px] text-stone-400 dark:text-stone-500 font-light">{proj.year}</span>
+                    </div>
+                    <h3 className="font-serif text-[20px] font-normal text-stone-900 dark:text-stone-100 leading-tight mb-3 group-hover:text-[#a98d69] dark:group-hover:text-[#3B82F6] transition-colors line-clamp-1">
+                      {proj.title}
+                    </h3>
+                    <p className="text-[13px] font-light text-stone-600 dark:text-stone-300 leading-[1.7] line-clamp-2">
+                      {proj.desc}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="px-6 pb-6">
+                  <div className="flex items-center justify-between mt-4 pt-4 border-t border-stone-100 dark:border-stone-800/50">
+                    <div className="flex gap-1.5 flex-wrap max-w-[80%]">
+                      {proj.tools.slice(0, 3).map((tool) => (
+                        <span
+                          key={tool}
+                          className="text-[10px] text-stone-500 dark:text-stone-400 border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-[#25201c] rounded px-2 py-0.5 transition-colors duration-300"
+                        >
+                          {tool}
+                        </span>
+                      ))}
+                      {proj.tools.length > 3 && (
+                        <span className="text-[10px] text-stone-400 dark:text-stone-500 px-1 py-0.5">
+                          +{proj.tools.length - 3}
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full border border-[#c5a880]/30 dark:border-[#3B82F6]/30 text-[#a98d69] dark:text-[#3B82F6] transition duration-300 group-hover:bg-[#c5a880] dark:group-hover:bg-[#3B82F6] group-hover:text-white dark:group-hover:text-white shrink-0">
+                      <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
 
       </main>
       <Footer />
